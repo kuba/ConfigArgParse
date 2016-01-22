@@ -1,3 +1,9 @@
+.. note::
+
+    Though this is stored under the python2.6-0.9.3 branch, this is now
+    actually a copy of ConfigArgParse 0.10.0. See
+    https://github.com/letsencrypt/letsencrypt/issues/2243 for more explanation.
+
 Overview
 ~~~~~~~~
 
@@ -8,6 +14,8 @@ hard-coded defaults, and in some cases, environment variables.
 Python's command line parsing modules such as argparse have very limited
 support for config files and environment variables, so this module
 extends argparse to add these features.
+
+|Travis CI Status for bw2/ConfigArgParse| 
 
 Features
 ~~~~~~~~
@@ -239,9 +247,6 @@ test.test_argparse module) but on configargparse in place of argparse.
 This ensures that configargparse will work as a drop in replacement for
 argparse in all usecases.
 
-Are unittests still passing: |Travis CI Status for
-zorro3/ConfigArgParse| |Analytics|
-
 Previously existing modules (PyPI search keywords: config argparse):
 
 -  argparse (built-in module python v2.7+ )
@@ -348,6 +353,5 @@ Relevant sites:
 -  http://tricksntweaks.blogspot.com/2013_05_01_archive.html
 -  http://www.youtube.com/watch?v=vvCwqHgZJc8#t=35
 
-.. |Travis CI Status for zorro3/ConfigArgParse| image:: https://api.travis-ci.org/zorro3/ConfigArgParse.svg?branch=master
-.. |Analytics| image:: https://ga-beacon.appspot.com/UA-52264120-1/ConfigArgParse/ConfigArgParse
-   :target: https://github.com/igrigorik/ga-beacon
+
+.. |Travis CI Status for bw2/ConfigArgParse| image:: https://travis-ci.org/bw2/ConfigArgParse.svg?branch=master
